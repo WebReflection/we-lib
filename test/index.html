@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>we-lib</title>
+  <script type="module">
+  import(
+    /^(?:localhost|[::1]|127(?:.d+){3})$/.test(location.hostname) ?
+    '../esm/index.js' :
+    'https://unpkg.com/we-lib?module'
+  )
+  .then(() => {
+    customElements.whenDefined('we-lib').then(() => {
+      const {define, defineAsync, get, upgrade, whenDefined} = customElements.get('we-lib');
+      console.log({define, defineAsync, get, upgrade, whenDefined});
+    });
+  });
+  </script>
+</head>
+<body></body>
+</html>
