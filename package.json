@@ -1,6 +1,6 @@
 {
   "name": "we-lib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "wickedElements through customElements registry",
   "main": "./cjs/index.js",
   "scripts": {
