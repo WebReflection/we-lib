@@ -1,6 +1,6 @@
 # we-lib
 
-A `customElements` indirection to have _wickedElements_ library a part, without needing to bundle it within components.
+A `customElements` indirection to have [wicked-elements](https://github.com/WebReflection/wicked-elements#readme) library a part, without needing to bundle it within components.
 
 ```js
 // vanilla
