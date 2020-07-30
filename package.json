@@ -36,5 +36,13 @@
   "unpkg": "min.js",
   "dependencies": {
     "wicked-elements": "^3.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/we-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/we-lib/issues"
+  },
+  "homepage": "https://github.com/WebReflection/we-lib#readme"
 }
